@@ -1,4 +1,4 @@
-var obj = JSON.parse($response.body);
+let obj = JSON.parse($response.body);
 
 obj.data.purchased=
 {
@@ -10,5 +10,3 @@ obj.data.purchased=
       "is_free": false
     };
 $done({body: JSON.stringify(obj)});
-
-// Descriptionsp
